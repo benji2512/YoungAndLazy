@@ -34,87 +34,45 @@
   <body>
     
 <header class="site-header sticky-top py-1">
-  <nav class="navbar navbar-dark bg-black" aria-label="First navbar example">
-    <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <img src="/images/y&lLogosm.png" class="mx-auto d-block" style="width: 7%">
-      
-      <div class="collapse navbar-collapse" id="navbarsExample01">
-        <ul class="navbar-nav me-auto mb-2">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Top</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#store">Products</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">About Us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>>
+  <nav class="navbar navbar-light bg-darl">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="/images/y&lLogosm.png" class="d-inline-block align-text-top">
+    </a>
+  </div>
+</nav>
 </header>
 
 <main>
   <div class="position-relative overflow-hidden text-center bg-light">
-    <img class="img-fluid" src="/images/greyFront.jpeg">
+    <img class="w-100" src="/images/greyFront.jpeg">
     <%# <div class="col-md-5 p-lg-5 mx-auto my-5">
       <h1 class="display-4 fw-normal">Title image of model go here</h1>
     </div> %>
   </div>
-  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center text-white bg-black">
+  <div class="position-relative overflow-hidden text-center text-white bg-black">
       <%# <h1 class="display-4 fw-normal">Row of hoodies go here</h1> %>
 <div class="sr-element sr-products" data-embed="multiple_products"><script type="application/json">{"store_id":"1244","publishable_key":"sr_live_pk_cc49cd8b2caee37d95550da92398264b06bd","options":{"products_to_display":"all","categories":[],"product_size":"large","image_dimension_value":"fit","image_width":"1000","image_height":"1500","button_style":"on_hover","button_position":"inline","product_default_sorting_order":"created","product_pagination_limit":"2","hide_out_of_stock":"0"},"includes":{"show_search_box":"0","show_sort_by":"0","show_per_page":"0","show_category_dropdown":"0","show_currency_dropdown":"1","show_language_dropdown":"1","show_product_name":"1","show_product_price":"1","show_product_image":"1","show_product_summary":"1","show_view_product_button":"1","show_add_to_cart_button":"1","show_min_max_order_quantity":"1","show_sale":"0","show_free_shipping":"0","show_new_product":"1","show_digital_download":"0"},"product_popup":{"show_product_name":"1","show_product_price":"1","show_product_summary":"1","show_product_description":"1","show_product_image":"1","show_select_quantity":"1","show_image_thumbnails":"1","show_product_reviews":"1","show_product_sku":"1","show_product_categories":"1","show_social_sharing_icons":"1","show_related_products":"1","thumbnail_layout":"horizontal_below","image_dimension_value":"crop","image_width":"570","image_height":"700","variation_styling":"dropdown","show_min_max_order_quantity":"1","show_sale":"1","show_free_shipping":"1","show_new_product":"1","show_product_tabs":"1"},"styles":{"product_title":"#ffffff","product_price":"#ffffff","product_summary":"#ffffff","button_background":"#233642","button_color":"#ffffff","view_product_button_background":"#233642","view_product_button_color":"#ffffff","view_cart_button_background":"#233642","view_cart_button_color":"#ffffff","product_background":"#000000","show_product_shadow":"0","show_rounded_edges":"1","show_padding":"0"}}</script></div><script async src="https://cdn.shoprocket.io/loader.js"></script>  </div>
 
-  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="img-fluid" src="/images/blackFront.jpeg">
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <%# <h1>Example headline.</h1> %>
-            <h1>Young and Lazy represents the generation of entrepreneurs that we are.</h1>
-          </div>
-        </div>
+        <img class="d-block w-100" src="/images/blackFront2.jpeg">
       </div>
       <div class="carousel-item">
-        <img class="img-fluid" src="/images/greyBack.jpeg">
-        <div class="container">
-          <div class="carousel-caption">
-            <%# <h1>Another example headline.</h1> %>
-            <h1>We sit at our desks, we monetise a brand, we stream and play video games to make money and a living while building a network and community that allows us to be ourselves.</h1>
-          </div>
-        </div>
+        <img class="d-block w-100" src="/images/greyFrontCloseLandscape.jpeg">
       </div>
       <div class="carousel-item">
-        <img class="img-fluid" src="/images/greyFrontClose.jpeg">
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <%# <h1>One more for good measure.</h1> %>
-            <h1>Pablo is a Pug, the laziest dog on the planet who has a shirt uncuffed and a tie hanging low but he’s stacking his money as an entrepreneur in our generation.</h1>
-          </div>
-        </div>
+        <img class="d-block w-100" src="/images/blackFront4.jpeg">
       </div>
       <div class="carousel-item">
-        <img class="img-fluid" src="/images/blackBack.jpeg">
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <%# <h1>One more for good measure.</h1> %>
-            <h1>This is the Young and Lazy generation.</h1>
-          </div>
-        </div>
+        <img class="d-block w-100" src="/images/greyFront.jpeg">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
@@ -127,36 +85,36 @@
     </button>
   </div>
 
-  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+  <div class="d-md-flex flex-md-equal w-100">
     <div class="bg-black me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-      <%# <div class="my-3 py-3">
-        <h2 class="display-5">Product images go here</h2>
-        <p class="lead">Maybe even a sentence on the features of the hoodies</p>
-      </div> %>
+    <img src="/images/blackFront3.jpeg" style="width: 100%;">
+      <div class="my-3 p-3">
+        <%# <h2 class="display-5">Product images go here</h2> %>
+        <p class="lead">Young and Lazy represents the generation of entrepreneurs that we are.</p>
+      </div>
       <%# <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div> %>
-      <img src="/images/blackBack2.jpeg" style="width: 100%;">
     </div>
-    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-      <%# <div class="my-3 p-3">
-        <h2 class="display-5">Product images go here</h2>
-        <p class="lead">Maybe even a sentence on the features of the hoodies</p>
-      </div> %>
+    <div class="bg-white me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black overflow-hidden">
+    <img src="/images/greyFront2.jpeg" style="width: 100%;">
+      <div class="my-3 p-3">
+        <%# <h2 class="display-5">Product images go here</h2> %>
+        <p class="lead">We sit at our desks, we monetise a brand, we stream and play video games to make money and a living while building a network and community that allows us to be ourselves.</p>
+      </div>
       <%# <div class="bg-black shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div> %>
-      <img src="/images/greyFront2.jpeg" style="width: 100%;">
     </div>
     <div class="bg-black me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-      <%# <div class="my-3 p-3">
-        <h2 class="display-5">Product images go here</h2>
-        <p class="lead">Maybe even a sentence on the features of the hoodies</p>
-      </div> %>
+    <img src="/images/blackBack3.jpeg" style="width: 100%;">
+      <div class="my-3 p-3">
+        <%# <h2 class="display-5">Product images go here</h2> %>
+        <p class="lead">Pablo is a Pug, the laziest dog on the planet who has a shirt uncuffed and a tie hanging low but he’s stacking his money as an entrepreneur in our generation.</p>
+      </div>
       <%# <div class="bg-black shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div> %>
-      <img src="/images/greyFrontClose2.jpeg" style="width: 100%;">
     </div>
   </div>
 
 </main>
 
-<footer class="container py-5">
+<footer class="container">
   <%# <div class="row">
     <div class="col-6 col-md">
       <h5>Features</h5>
