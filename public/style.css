@@ -15,7 +15,7 @@
  * Dummy devices (replace them with your own or something else entirely!)
  */
 
-.product-device {
+ .product-device {
   position: absolute;
   right: 10%;
   bottom: -30%;
@@ -58,6 +58,7 @@
     flex: 1;
   }
 }
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
